@@ -20,7 +20,7 @@ export const Hero = () => {
             <button className=" text-black px-4 py-2 rounded-md cursor-pointer">Pricing &rarr;</button>
         </div>
         <div>
-            <h4 className='mt-12 font-light text-neutral-700'>Currently for US-based Delaware C-Corps.</h4>
+            <h4 className='mt-10 font-light text-neutral-500'>currently for US-based Delaware C-Corps.</h4>
         </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import { Container } from "@/components/container";
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,6 +15,17 @@ export default function Home() {
         <Navbar/>
         <Hero/>
       </Container>
+      <div className="w-full relative">
+        <div className="h-px w-full absolute inset-y-0 right-0 bg-gradient-to-b from-neutral-300/50 via-neutral-200 to-transparent">
+        </div>
+      </div>
+      <Image 
+        className="mx-auto mt-3 rounded-2xl border-neutral-200 shadow-md mask-b-from-0% to-100%"
+        src="/dashboard.webp"
+        alt="dashboard image"
+        width={1000}
+        height={1000}
+      />
       </div>
   );
 }
