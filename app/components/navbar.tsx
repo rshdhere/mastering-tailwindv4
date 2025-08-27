@@ -5,16 +5,16 @@ export const Navbar = () => {
 
     const links = [{
         title: 'Founders',
-        href: '/'
+        href: '/founders'
     }, {
         title: 'Guide',
-        href: '/'
+        href: '/guide'
     }, {
         title: 'Pricing',
-        href: '/'
+        href: '/pricing'
     }, {
         title: 'Log In',
-        href: '/'
+        href: '/login'
     }];
 
   return (
